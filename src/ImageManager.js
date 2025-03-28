@@ -1,0 +1,43 @@
+import React, { useRef } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUpload, faSave } from "@fortawesome/free-solid-svg-icons";
+import { Tooltip } from "react-tooltip";
+
+export default function ImageManager({ handleUpload, handleSave }) {
+  const fileInputRef = useRef(null);
+
+  function handleClick() {
+    fileInputRef.current.click();
+  }
+
+  return (
+    <>
+      {/* Upload */}
+      <button
+        data-tooltip-id={"Upload"}
+        data-tooltip-content={"Upload"}
+        onClick={handleClick}
+      >
+        <FontAwesomeIcon icon={faUpload} />
+      </button>
+      <Tooltip id={"Upload"} className="tooltip" />
+      <input
+        type="file"
+        accept="image/*"
+        ref={fileInputRef}
+        onChange={handleUpload}
+        className="hidden"
+      />
+
+      {/* Save */}
+      <button
+        data-tooltip-id={"Save"}
+        data-tooltip-content={"Save"}
+        onClick={handleSave}
+      >
+        <FontAwesomeIcon icon={faSave} />
+      </button>
+      <Tooltip id={"Save"} className="tooltip" />
+    </>
+  );
+}
