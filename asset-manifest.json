@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/photo-editor/static/css/main.5f5a0027.css",
+    "main.js": "/photo-editor/static/js/main.ace5f20d.js",
+    "index.html": "/photo-editor/index.html",
+    "main.5f5a0027.css.map": "/photo-editor/static/css/main.5f5a0027.css.map",
+    "main.ace5f20d.js.map": "/photo-editor/static/js/main.ace5f20d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f5a0027.css",
+    "static/js/main.ace5f20d.js"
+  ]
+}
