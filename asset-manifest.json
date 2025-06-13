@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/excel-to-flashcard/static/css/main.24965cf1.css",
-    "main.js": "/excel-to-flashcard/static/js/main.1c76969d.js",
-    "index.html": "/excel-to-flashcard/index.html",
-    "main.24965cf1.css.map": "/excel-to-flashcard/static/css/main.24965cf1.css.map",
-    "main.1c76969d.js.map": "/excel-to-flashcard/static/js/main.1c76969d.js.map"
+    "main.css": "/focus-toolkit/static/css/main.05b5f251.css",
+    "main.js": "/focus-toolkit/static/js/main.010096c8.js",
+    "static/media/bootstrap-icons.woff?": "/focus-toolkit/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/focus-toolkit/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "index.html": "/focus-toolkit/index.html",
+    "main.05b5f251.css.map": "/focus-toolkit/static/css/main.05b5f251.css.map",
+    "main.010096c8.js.map": "/focus-toolkit/static/js/main.010096c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.24965cf1.css",
-    "static/js/main.1c76969d.js"
+    "static/css/main.05b5f251.css",
+    "static/js/main.010096c8.js"
   ]
 }
